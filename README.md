@@ -49,17 +49,9 @@ Response Body
 
 ~~~
 ### Running Tests
-To run the tests for this project, follow these steps:
+To run the tests for this project:
 
-Make sure you have all the dependencies installed by running
-```
-npm install
-```
-Compile the typescript by running
-```
-npm run build
-```
-In a new terminal window, run the tests with the following command:
+In a new terminal window, run the tests with the following command (it will create the dependencies, build the project and run the tests):
 
 ```
 npm run test
