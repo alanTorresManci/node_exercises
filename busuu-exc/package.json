@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./dist/server.js",
     "build": "tsc",
-    "test": "mocha -r ts-node/register dist/tests/**/*.test.js"
+    "test": "npm install && npm run build && mocha -r ts-node/register dist/tests/**/*.test.js"
   },
   "keywords": [],
   "author": "",
